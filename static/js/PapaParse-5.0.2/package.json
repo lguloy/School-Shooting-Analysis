@@ -26,7 +26,7 @@
 	],
 	"homepage": "http://papaparse.com",
 	"repository": {
-		"type": "git",
+		"type": "module",
 		"url": "https://github.com/mholt/PapaParse.git"
 	},
 	"author": {
