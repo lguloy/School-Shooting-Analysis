@@ -1,1 +1,3 @@
-const API_key = "AIzaSyBtR_v_UxRvDnkdlvCNb6Uqe2kNA-Mbcbc"
+const GOOGLE_KEY = "AIzaSyBtR_v_UxRvDnkdlvCNb6Uqe2kNA-Mbcbc"
+
+const MAPB_KEY = "pk.eyJ1IjoiZ29vZG1hbjI4MTQiLCJhIjoiY2tva21uaTh3MDB2ZTJ1cGFwMXR1MTd1NCJ9.PKmuEjMPLvdFUOqLiKpD-Q"

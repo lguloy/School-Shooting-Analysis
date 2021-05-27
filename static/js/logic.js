@@ -1,19 +1,33 @@
-// const csv = require('csv-parser');
-// const fs = require('fs');
-
-// let city = []
-// let state = []
-
-// fs.createReadStream('/Users/AlexGoodman/Documents/JHU_Bootcamp/School-Shooting-Analysis/static/data/pah_wikp_combo.csv')
-//   .pipe(csv())
-//   .on('data', (row) => {
-//     city = (row['City']),
-//     state = (row['State']);
-//     console.log(city),
-//     console.log(state)
-//   })
+let city = []
+let state = []
 
 
-let output = ('https://maps.googleapis.com/maps/api/geocode/json?address=1600%20Amphitheatre%20Parkway,
-%20Mountain%20View,%20CA&key='AIzaSyAHdcrKSynTkWgemjldeskYBwVT_M873Ps'')
-console.log(output)
+var myMap = L.map("map", {
+    center: [45.52, -122.67],
+    zoom: 13
+  });
+
+L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+  tileSize: 512,
+  maxZoom: 18,
+  zoomOffset: -1,
+  id: "mapbox/streets-v11",
+  accessToken: MAPB_KEY
+}).addTo(myMap);
+
+
+d3.csv("../static/data/pah_wikp_combo.csv").then(function(data) {
+    data.forEach((line) => {
+        Object.entries(line).forEach(([key, value]) => {
+            if (key === 'City') {
+                city.push(value)
+            }
+            else if (key === 'State') {
+                state.push(value)
+            };
+        })
+    })
+    console.log(city)
+    console.log(state);
+});
