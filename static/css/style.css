@@ -1,0 +1,20 @@
+.header-style {
+    background-color: white;
+    height: 150px; 
+    padding: 25px; 
+    border-style: solid; 
+    border-color:black; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.text-box {
+    border-style: solid; margin-bottom: 20px; border-color:black;
+}
+
+.text-box-header {
+    background-color: white; 
+    padding-bottom:5px ;
+
+}
+

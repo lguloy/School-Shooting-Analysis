@@ -6,61 +6,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>School Shooting Analysis</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
-<body>
-
+<body style="background-color:rgb(108, 128, 136);">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 20px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Landing Page</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="table.html">Incidents</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="graphs.html">Frequencies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="maps.html">Heat Maps</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
     <div class="container">
+
         <div class="row">
-            <div class="col-md-12 jumbotron text-center">
-                <h1>School Shooting Analysis</h1>
-                <p>Welcome to the Landing Page!</p>
+            <div class="col-md-12 text-center header-style"  >
+                <h1 style="color: black;">School Shooting Analysis</h1>
+                <p style="color: black;">Welcome to the Landing Page!</p>
             </div>
         </div>
-        <div class = "row">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Summary</h3>
+
+        <div class = "row" style="border-style: solid; margin-bottom: 20px; border-color:black;" >
+            <!-- <div class="col-md-12"> -->
+                <div class="text-center " style="background-color: white; padding-bottom:5px ;">
+                    <h3 style="color:black;">Summary</h3>
                 </div>
-                <div class="panel-body">
-                    <p style="font-size: medium;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                <div class="col-md-12">
+                    <p style="font-size: medium; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                     dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 </div>
+            <!-- </div> -->
         </div>
             
         <div class="row">
             <div class="col-md-4">
-                <div class="card w-100">
+                <div class="card w-100 h-100">
                     <img src="./static/Images/Filler_Image.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h2 class="card-title">Card title</h2>
-                        <p class="card-text" style="font-size: small;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary btn-lg" style="font-size: large;">Incident Database</a>
+                        <br>
+                        <br>
+                        <p class="card-text" style="font-size: small;">This page will allow you to filter a state and year of your choosing, and you will be able
+                        to see all the incidents and the details for that given state and year</p>
+                        <br>
+                        
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card w-100">
+                <div class="card w-100 h-100">
                     <img src="./static/Images/Filler_Image.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h2 class="card-title">Card title</h2>
-                        <p class="card-text" style="font-size: small;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary btn-lg" style="font-size: large;">Frequencies</a>
+                        <br>
+                        <br>
+                        <p class="card-text" style="font-size: small;">This page shows data visualizations of the data that shows the number of shootings
+                        per year. It will allow you to filter these visualizations by School type, area type or total accross the USA. This will
+                        also allow you to see the total shootings per state</p>
+                        <br>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card w-100">
+                <div class="card w-100 h-100">
                     <img src="./static/Images/Filler_Image.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h2 class="card-title">Card title</h2>
-                        <p class="card-text" style="font-size: small;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary btn-lg" style="font-size: large;">Heat Maps</a>
+                        <br>
+                        <br>
+                        <p class="card-text" style="font-size: small;">This page will display a heatmap of incident frequency as well as casualties. It also
+                        allows a filter for the type of school</p>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -69,6 +104,7 @@
     </div>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src=".static/js/app.js"></script>
 
   
 </body>
