@@ -2,7 +2,7 @@ let city = []
 let state = []
 let city_state = []
 
-var myMap = L.map("map", {
+var myMap = L.map("maps", {
     center: [45.52, -122.67],
     zoom: 100
   });
