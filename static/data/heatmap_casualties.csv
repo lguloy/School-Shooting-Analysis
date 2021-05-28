@@ -1,0 +1,702 @@
+Date,City,State,Fatalities,Wounded
+3/27/1990,Brooklyn,New York,0,1.0
+5/20/1990,Centerville,Tennessee,1,No Info
+8/26/1990,Las Vegas,Nevada,1,No Info
+9/11/1990,San Antonio,Texas,0,3.0
+1/8/1991,Richardson,Texas,0,No Info
+2/6/1991,Donna,Texas,1,0.0
+4/23/1991,Compton,California,1,No Info
+4/23/1991,Compton,California,1,0.0
+9/18/1991,Crosby,Texas,1,No Info
+9/18/1991,Crosby,Texas,1,0.0
+10/8/1991,Bronx,New York,1,No Info
+11/1/1991,Iowa City,Iowa,5,No Info
+11/1/1991,Iowa City,Iowa,6,1.0
+11/14/1991,Houston,Texas,0,No Info
+11/25/1991,Brooklyn,New York,1,No Info
+11/25/1991,Brooklyn,New York,1,0.0
+12/12/1991,Kent,Ohio,1,0.0
+1/29/1992,Kent,Ohio,0,1.0
+2/26/1992,Brooklyn,New York,2,No Info
+2/26/1992,Brooklyn,New York,2,0.0
+5/1/1992,Olivehurst,California,4,No Info
+5/1/1992,Olivehurst,California,3,10.0
+5/14/1992,Napa,California,0,No Info
+9/11/1992,Lincoln,Texas,0,No Info
+10/12/1992,Lincoln,Nebraska,0,No Info
+10/12/1992,Tucson,Arizona,1,No Info
+10/19/1992,The Bronx,New York,0,3.0
+11/4/1992,Detroit,Michigan,0,11.0
+11/10/1992,Chicago,Illinois,0,No Info
+11/13/1992,Houston,Texas,1,No Info
+11/16/1992,Birmingham,Alabama,1,No Info
+11/20/1992,Chicago,Illinois,1,No Info
+11/23/1992,Buffalo,New York,0,No Info
+12/3/1992,Chicago,Illinois,1,No Info
+12/14/1992,Great Barrington,Massachusetts,2,No Info
+12/14/1992,Great Barrington,Massachusetts,2,4.0
+1/6/1993,Brentwood,New York,0,1.0
+1/8/1993,Kinzers,Pennsylvania,1,No Info
+1/12/1993,Miami,Florida,1,No Info
+1/18/1993,Grayson,Kentucky,2,No Info
+1/18/1993,Grayson,Kentucky,2,0.0
+1/21/1993,Los Angeles,California,1,No Info
+2/1/1993,Redmond,Washington,1,No Info
+2/1/1993,Amityville,New York,1,No Info
+2/4/1993,Clayton County,Georgia,1,No Info
+2/8/1993,Middle River,Minnesota,1,No Info
+2/8/1993,Washington DC,District of Columbia,1,No Info
+2/18/1993,Dallas,Texas,1,No Info
+2/22/1993,Los Angeles,California,1,No Info
+2/22/1993,Los Angeles,California,1,0.0
+2/26/1993,Gloucester,Massachusetts,0,No Info
+3/18/1993,Harlem,Georgia,1,No Info
+3/25/1993,St. Louis,Missouri,1,No Info
+4/3/1993,Sacramento,California,1,No Info
+4/14/1993,Irving,Texas,1,No Info
+4/15/1993,Acushnet,Massachusetts,1,No Info
+4/15/1993,Acushnet,Massachusetts,1,0.0
+4/16/1993,Sacramento,California,1,No Info
+4/26/1993,Raleigh,North Carolina,1,No Info
+5/14/1993,Irving,Texas,1,0.0
+5/24/1993,Red Hill,Pennsylvania,1,No Info
+5/24/1993,Pennsburg,Pennsylvania,1,0.0
+5/27/1993,New Orleans,Louisiana,1,No Info
+7/8/1993,Ogden,Utah,1,No Info
+8/31/1993,Atlanta,Georgia,1,No Info
+9/2/1993,Dallas,Texas,1,No Info
+9/17/1993,Sheridan,Wyoming,1,4.0
+9/18/1993,Sheridan,Wyoming,1,No Info
+10/12/1993,New Castle,Delaware,1,No Info
+10/14/1993,Detroit,Michigan,1,No Info
+11/1/1993,Chicago,Illinois,1,No Info
+11/4/1993,Jacksonville,Florida,1,No Info
+11/4/1993,New Britain,Connecticut,1,No Info
+11/4/1993,New Britain,Connecticut,1,0.0
+11/5/1993,Bay Springs,Mississippi,1,No Info
+11/29/1993,Kansas City,Missouri,1,No Info
+12/1/1993,Wauwatosa,Wisconsin,1,No Info
+12/1/1993,Wauwatosa,Wisconsin,1,0.0
+12/8/1993,Savannah,Georgia,1,No Info
+12/17/1993,Chelsea,Michigan,1,No Info
+1/20/1994,Kennard,Texas,0,No Info
+1/20/1994,Hacienda Heights,California,1,No Info
+1/24/1994,Columbia,South Carolina,1,0.0
+1/26/1994,Columbia,South Carolina,1,No Info
+1/31/1994,Seattle,Washington,1,No Info
+1/31/1994,Seattle,Washington,1,0.0
+2/8/1994,Detroit,Michigan,1,No Info
+2/14/1994,Belmont,California,1,No Info
+2/18/1994,Spartanburg,South Carolina,0,1.0
+3/1/1994,Boonville,Missouri,2,No Info
+3/1/1994,Boonville,Missouri,2,0.0
+3/15/1994,Charleston,South Carolina,1,No Info
+3/22/1994,Riveria Beach,Florida,0,No Info
+3/23/1994,Seattle,Washington,1,No Info
+3/25/1994,Woodstock,Georgia,0,No Info
+4/12/1994,Butte,Montana,1,No Info
+4/12/1994,Butte,Montana,1,0.0
+4/13/1994,Los Angeles,California,0,No Info
+4/21/1994,Nashville,Tennessee,1,No Info
+4/21/1994,Nashville,Tennessee,1,0.0
+5/2/1994,North Miami,Florida,1,No Info
+5/25/1994,Union,Kentucky,4,No Info
+7/25/1994,Ottumwa,Iowa,1,No Info
+9/7/1994,Hollywood,California,1,No Info
+10/12/1994,Greensboro,North Carolina,1,No Info
+10/12/1994,Greensboro,North Carolina,1,1.0
+10/17/1994,Chicago,Illinois,0,1.0
+11/5/1994,San Leandro,California,1,No Info
+11/7/1994,Wickliffe,Ohio,1,No Info
+11/7/1994,Wickliffe,Ohio,1,4.0
+11/15/1994,Tacoma,Washington,1,No Info
+12/14/1994,Albany,New York,0,1.0
+1/5/1995,Washington DC,District of Columbia,1,No Info
+1/10/1995,Palm Beach Gardens,Florida,0,No Info
+1/12/1995,Seattle,Washington,0,No Info
+1/12/1995,Seattle,Washington,0,2.0
+1/23/1995,Redlands,California,1,No Info
+1/26/1995,Chapel Hill,North Carolina,2,No Info
+2/2/1995,Long Beach,California,1,No Info
+8/29/1995,Laredo,Texas,1,No Info
+9/12/1995,Memphis,Tennessee,1,No Info
+9/14/1995,Olathe,Kansas,2,No Info
+9/29/1995,Tavares,Florida,1,No Info
+9/29/1995,Tavares,Florida,1,0.0
+10/12/1995,Blackville,South Carolina,1,No Info
+10/12/1995,Blackville,South Carolina,2,1.0
+11/15/1995,Lynnville,Tennessee,2,No Info
+11/15/1995,Lynnville,Tennessee,2,1.0
+11/28/1995,queens,New York,1,No Info
+1/19/1996,District of Columbia,District of Columbia,1,No Info
+1/19/1996,Washington,D.C.,1,0.0
+1/26/1996,memphis,Tennessee,1,No Info
+2/2/1996,Moses Lake,Washington,3,No Info
+2/2/1996,Moses Lake,Washington,3,1.0
+2/8/1996,Palo Alto,California,1,No Info
+2/29/1996,St. Louis,Missouri,1,1.0
+3/11/1996,New London,North Carolina,1,No Info
+4/11/1996,Talledega,Alabama,1,No Info
+6/4/1996,Hemet,California,1,No Info
+8/15/1996,San Diego,California,3,No Info
+8/15/1996,San Diego,California,3,0.0
+8/26/1996,San Antonio,Texas,1,No Info
+9/17/1996,State College,Pennsylvania,1,No Info
+9/17/1996,State College,Pennsylvania,1,2.0
+9/25/1996,Scottdale,Georgia,1,No Info
+9/25/1996,Decatur,Georgia,1,2.0
+10/2/1996,Philadelphia,Pennsylvania,2,No Info
+10/4/1996,Playa del Rey,California,1,No Info
+10/9/1996,Sherwood,Arkansas,1,0.0
+10/13/1996,St. Louis,Missouri,1,No Info
+10/16/1996,West Lafayette,Indiana,1,No Info
+11/27/1996,Sacramento,California,1,No Info
+1/11/1997,Brooklyn,New York,1,No Info
+1/27/1997,West Palm Beach,Florida,1,No Info
+1/27/1997,West Palm Beach,Florida,1,0.0
+1/31/1997,Tulsa,Oklahoma,1,No Info
+2/19/1997,Bethel,Alaska,2,No Info
+2/19/1997,Bethel,Alaska,2,2.0
+2/20/1997,Jacksonville,Florida,1,No Info
+3/18/1997,Detroit,Michigan,1,No Info
+10/1/1997,Pearl,Mississippi,3,No Info
+10/1/1997,Pearl,Mississippi,3,7.0
+10/14/1997,Garland,Texas,1,No Info
+10/15/1997,Palmetto,Florida,0,1.0
+10/22/1997,Norwalk,California,2,No Info
+11/13/1997,Sacramento,California,1,No Info
+12/1/1997,West Paducah,Kentucky,3,No Info
+12/1/1997,West Paducah,Kentucky,3,5.0
+12/15/1997,Stamps,Arkansas,2,No Info
+12/15/1997,Stamps,Arkansas,0,2.0
+2/25/1998,Reed City,Michigan,1,No Info
+3/1/1998,Philadelphia,Pennsylvania,1,3.0
+3/24/1998,Jonesboro,Arkansas,5,No Info
+3/24/1998,Craighead County,Arkansas,5,10.0
+3/25/1998,Coldwater,Michigan,1,No Info
+3/30/1998,Chapel Hill,North Carolina,0,No Info
+4/24/1998,Edinboro,Pennsylvania,1,No Info
+4/24/1998,Edinboro,Pennsylvania,1,3.0
+4/28/1998,Pomona,California,2,No Info
+5/1/1998,Buffalo,New York,1,No Info
+5/19/1998,Fayetteville,Tennessee,1,No Info
+5/19/1998,Fayetteville,Tennessee,1,0.0
+5/21/1998,Springfield,Oregon,4,No Info
+5/21/1998,Rialto,California,1,No Info
+5/21/1998,Springfield,Oregon,4,23.0
+5/27/1998,Pasadena,California,0,No Info
+5/29/1998,Fort Lauderdale,Florida,2,No Info
+6/15/1998,Richmond,Virginia,0,No Info
+6/15/1998,Richmond,Virginia,0,2.0
+9/4/1998,San Bernardino,California,2,No Info
+9/12/1998,Glendale,California,0,No Info
+12/10/1998,Detroit,Michigan,1,No Info
+12/10/1998,Detroit,Michigan,1,0.0
+1/8/1999,Carollton,Georgia,2,No Info
+1/8/1999,Carrollton,Georgia,1,1.0
+1/21/1999,North Richland Hills,Texas,1,No Info
+2/11/1999,Elgin,Illinois,0,No Info
+4/16/1999,Notus,Idaho,0,No Info
+4/16/1999,Notus,Idaho,0,0.0
+4/20/1999,Littleton,Colorado,15,No Info
+4/20/1999,Littleton,Colorado,15,21.0
+4/23/1999,Atlanta,Georgia,1,No Info
+5/20/1999,Conyers,Georgia,0,No Info
+5/20/1999,Conyers,Georgia,0,6.0
+8/25/1999,Monticello,Georgia,1,No Info
+9/7/1999,Plano,Texas,1,No Info
+9/9/1999,San Jose,California,1,No Info
+11/19/1999,Deming,New Mexico,0,No Info
+11/19/1999,Deming,New Mexico,1,0.0
+12/6/1999,Fort Gibson,Oklahoma,0,No Info
+12/6/1999,Fort Gibson,Oklahoma,0,6.0
+1/19/2000,New Port Richey,Florida,0,No Info
+2/29/2000,Flint,Michigan,1,No Info
+2/29/2000,Flint,Michigan,1,0.0
+5/10/2000,Sierra Vista,Arizona,2,No Info
+5/26/2000,Lake Worth,Florida,1,No Info
+5/26/2000,Lake Worth,Florida,1,0.0
+6/28/2000,Seattle,Washington,2,No Info
+7/26/2000,Canton,Ohio,1,No Info
+8/28/2000,Fayetteville,Arkansas,2,No Info
+8/28/2000,Fayetteville,Arkansas,2,0.0
+9/5/2000,Bidwell,Ohio,2,No Info
+9/26/2000,New Orleans,Louisiana,0,No Info
+9/26/2000,New Orleans,Louisiana,0,2.0
+10/23/2000,Los Angeles,California,1,No Info
+10/26/2000,Brooklyn,New York,1,No Info
+10/27/2000,Memphis,Tennessee,1,No Info
+12/1/2000,Granada Hills,California,0,No Info
+12/1/2000,San Diego,California,0,1.0
+1/10/2001,Oxnard,California,1,No Info
+1/17/2001,Baltimore,Maryland,1,No Info
+1/29/2001,Arlington,Texas,1,No Info
+3/2/2001,San Diego,California,0,No Info
+3/5/2001,Santee,California,2,No Info
+3/5/2001,Santee,California,2,13.0
+3/7/2001,Williamsport,Pennsylvania,0,No Info
+3/7/2001,Williamsport,Pennsylvania,0,1.0
+3/22/2001,El Cajon,California,0,No Info
+3/22/2001,El Cajon,California,0,5.0
+3/30/2001,Gary,Indiana,1,No Info
+3/30/2001,Gary,Indiana,1,0.0
+4/3/2001,Klein,Texas,0,No Info
+4/25/2001,Cleveland,Ohio,1,No Info
+5/15/2001,Ennis,Texas,0,No Info
+5/16/2001,Parkland,Washington,2,0.0
+5/17/2001,Pierce County,Washington,1,No Info
+10/12/2001,Taylorsville,Utah,0,No Info
+11/12/2001,Caro,Michigan,0,No Info
+1/15/2002,New York City,New York,0,No Info
+1/15/2002,New York City,New York,0,2.0
+1/16/2002,Gundy,Virginia,3,No Info
+1/16/2002,Grundy,Virginia,3,3.0
+2/20/2002,Milwaukee,Wisconsin,1,0.0
+6/11/2002,Conception,Missouri,3,2.0
+7/26/2002,Charlotte,North Carolina,1,No Info
+10/4/2002,San Antonio,Texas,1,No Info
+10/7/2002,Bowie,Maryland,0,No Info
+10/7/2002,Bowie,Maryland,0,1.0
+10/28/2002,Tucson,Arizona,4,No Info
+10/28/2002,Tucson,Arizona,4,0.0
+10/29/2002,Jersey City,New Jersey,0,1.0
+11/7/2002,Liberty,Missouri,1,No Info
+12/16/2002,Chicago,Illinois,1,No Info
+3/23/2003,Meridian,Mississippi,0,No Info
+4/10/2003,Walnut,California,0,No Info
+4/14/2003,New Orleans,Louisiana,1,No Info
+4/14/2003,New Orleans,Louisiana,1,3.0
+4/17/2003,Addison,Texas,1,No Info
+4/24/2003,Red Lion,Pennsylvania,1,No Info
+4/24/2003,Red Lion,Pennsylvania,2,0.0
+5/9/2003,Cleveland,Ohio,1,No Info
+5/9/2003,Cleveland,Ohio,1,2.0
+5/13/2003,Johnstown,Pennsylvania,1,No Info
+6/4/2003,Wellsboro,Pennsylvania,0,No Info
+7/15/2003,Dallas,Texas,0,No Info
+9/24/2003,Cold Spring,Minnesota,2,No Info
+9/24/2003,Cold Spring,Minnesota,2,0.0
+10/30/2003,Washington,District Of Columbia,1,No Info
+11/7/2003,Sugar Land,Texas,1,No Info
+1/21/2004,Henderson,Nevada,1,No Info
+2/2/2004,District of Columbia,District Of Columbia,1,No Info
+2/2/2004,Washington,D.C.,1,0.0
+2/9/2004,East Greenbush,New York,0,No Info
+2/9/2004,East Greenbush,New York,0,1.0
+2/11/2004,Philadelphia,Pennsylvania,1,No Info
+3/17/2004,Joyce,Washington,0,No Info
+5/7/2004,Randallstown,Maryland,0,No Info
+5/7/2004,Randallstown,Maryland,0,4.0
+5/24/2004,Salt Lake City,Utah,1,No Info
+6/1/2004,St Croix,Virgin Islands,1,No Info
+8/30/2004,Maywood,Illinois,1,No Info
+10/4/2004,Memphis,Tennessee,0,No Info
+11/22/2004,Philadelphia,Pennsylvania,1,No Info
+12/10/2004,Nine Mile Falls,Washington,1,No Info
+1/6/2005,Philadelphia,Pennsylvania,1,No Info
+2/8/2005,Chicago,Illinois,0,1.0
+3/2/2005,Dover,Tennessee,1,0.0
+3/21/2005,Red Lake,Minnesota,10,No Info
+3/21/2005,Red Lake,Minnesota,10,7.0
+5/17/2005,Lower Allen Township,Pennsylvania,1,No Info
+9/13/2005,Chicago,Illinois,0,No Info
+9/13/2005,Chicago,Illinois,0,1.0
+11/8/2005,Jacksboro,Tennessee,1,No Info
+11/8/2005,Jacksboro,Tennessee,1,2.0
+1/13/2006,Birmingham,Alabama,1,No Info
+1/13/2006,Longwood,Florida,0,1.0
+1/15/2006,Longwood,Florida,1,No Info
+2/23/2006,Roseburg,Oregon,1,No Info
+2/23/2006,Roseburg,Oregon,0,1.0
+3/14/2006,Reno,Nevada,0,No Info
+3/14/2006,Reno,Nevada,0,2.0
+6/5/2006,Venice,California,1,No Info
+8/24/2006,Essex,Vermont,2,No Info
+8/24/2006,Essex Junction,Vermont,2,3.0
+8/30/2006,Hillsborough,North Carolina,3,No Info
+8/30/2006,Hillsborough,North Carolina,0,2.0
+9/2/2006,Shepherdstown,West Virginia,2,No Info
+9/2/2006,Shepherdstown,West Virginia,3,0.0
+9/17/2006,Pittsburgh,Pennsylvania,0,No Info
+9/17/2006,Pittsburgh,Pennsylvania,0,5.0
+9/27/2006,Bailey,Colorado,1,No Info
+9/27/2006,Bailey,Colorado,2,0.0
+9/29/2006,Cazenovia,Wisconsin,1,No Info
+9/29/2006,Cazenovia,Wisconsin,1,0.0
+10/2/2006,Nickel Mines,Pennsylvania,5,No Info
+10/2/2006,Nickel Mines,Pennsylvania,6,3.0
+10/9/2006,Joplin,Missouri,0,No Info
+10/9/2006,Joplin,Missouri,0,0.0
+10/17/2006,Katy,Texas,1,No Info
+10/29/2006,Fresno,California,1,No Info
+11/28/2006,Houston,Texas,1,No Info
+12/12/2006,Erdenheim,Pennsylvania,1,No Info
+1/3/2007,Tacoma,Washington,1,No Info
+1/3/2007,Tacoma,Washington,1,0.0
+2/8/2007,Prineville,Oregon,1,No Info
+3/7/2007,Midland,Michigan,0,No Info
+3/7/2007,Greenville,Texas,0,No Info
+3/7/2007,Compton,California,0,1.0
+3/24/2007,Greensboro,North Carolina,0,No Info
+4/2/2007,Seattle,Washington,1,No Info
+4/10/2007,Gresham,Oregon,0,No Info
+4/16/2007,Blacksburg,Virginia,32,No Info
+4/16/2007,Blacksburg,Virginia,33,23.0
+9/21/2007,Dover,Delaware,1,No Info
+9/28/2007,Oroville,California,0,No Info
+9/30/2007,Memphis,Tennessee,1,No Info
+10/10/2007,Cleveland,Ohio,0,No Info
+10/10/2007,Cleveland,Ohio,1,4.0
+11/6/2007,Miami Gardens,Florida,0,1.0
+1/15/2008,Putnam City,Oklahoma,0,No Info
+1/16/2008,Cleveland,Ohio,0,No Info
+1/16/2008,Charlotte,North Carolina,0,No Info
+2/4/2008,Memphis,Tennessee,0,No Info
+2/4/2008,Memphis,Tennessee,0,1.0
+2/7/2008,Portsmouth,Ohio,0,No Info
+2/8/2008,Baton Rouge,Louisiana,3,No Info
+2/8/2008,Baton Rouge,Louisiana,3,0.0
+2/11/2008,Memphis,Tennessee,0,No Info
+2/11/2008,Memphis,Tennessee,0,1.0
+2/12/2008,Oxnard,California,1,No Info
+2/12/2008,Oxnard,California,1,0.0
+2/14/2008,DeKalb,Illinois,5,No Info
+2/14/2008,DeKalb,Illinois,6,21.0
+2/23/2008,Jonesboro,Arkansas,0,No Info
+2/27/2008,Little Rock,Arkansas,0,No Info
+2/28/2008,Miami Gardens,Florida,0,No Info
+3/6/2008,Mobile,Alabama,1,No Info
+3/7/2008,Chicago,Illinois,1,No Info
+4/5/2008,Chicago,Illinois,1,No Info
+4/16/2008,Fresno,California,1,No Info
+4/24/2008,Omaha,Nebraska,0,No Info
+4/29/2008,Washington,District of Columbia,0,No Info
+7/24/2008,Phoenix,Arizona,0,No Info
+8/14/2008,Federal Way,Washington,1,No Info
+8/14/2008,Federal Way,Washington,1,0.0
+8/21/2008,Knoxville,Tennessee,1,No Info
+8/21/2008,Knoxville,Tennessee,1,0.0
+8/29/2008,Portland,Oregon,0,No Info
+9/2/2008,Willoughby,Ohio,0,No Info
+9/2/2008,Willoughby,Ohio,0,0.0
+10/13/2008,San Antonio,Texas,1,No Info
+10/16/2008,Detroit,Michigan,1,No Info
+10/16/2008,Detroit,Michigan,1,3.0
+10/20/2008,Acton,California,1,No Info
+10/21/2008,Indianapolis,Indiana,1,No Info
+10/26/2008,Conway,Arkansas,2,No Info
+10/26/2008,Conway,Arkansas,2,1.0
+10/31/2008,Stockton Springs,Maine,0,No Info
+11/12/2008,Fort Lauderdale,Florida,1,No Info
+11/13/2008,Fort Lauderdale,Florida,1,0.0
+11/15/2008,St. George,Utah,1,No Info
+11/21/2008,Savannah,Georgia,0,No Info
+1/8/2009,New Castle,Delaware,0,No Info
+1/9/2009,Chicago,Illinois,0,No Info
+1/9/2009,Chicago,Illinois,0,5.0
+1/23/2009,Cahokia,Illinois,1,No Info
+2/7/2009,Houston,Texas,1,No Info
+2/11/2009,El Monte,California,0,No Info
+2/17/2009,Detroit,Michigan,0,No Info
+3/6/2009,Fayetteville,North Carolina,0,No Info
+3/10/2009,Jacksonville,Florida,2,No Info
+4/10/2009,Dearborn,Michigan,1,No Info
+4/24/2009,Houston,Texas,1,No Info
+4/26/2009,Hampton,Virginia,0,No Info
+4/26/2009,Hampton,Virginia,0,3.0
+5/1/2009,Sheboygan,Wisconsin,0,No Info
+5/5/2009,Canandaigua,New York,0,No Info
+5/18/2009,Larose,Louisiana,0,No Info
+5/18/2009,Cambridge,Massachusetts,1,No Info
+5/18/2009,Cambridge,Massachusetts,1,0.0
+5/18/2009,Larose,Louisiana,1,0.0
+6/9/2009,Lexington,Kentucky,1,No Info
+6/16/2009,San Francisco,California,0,No Info
+6/16/2009,San Francisco,California,0,3.0
+6/24/2009,Parkersburg,Iowa,1,No Info
+9/2/2009,San Bruno,California,0,No Info
+9/3/2009,Atlanta,Georgia,1,No Info
+9/3/2009,San Bruno,California,0,1.0
+9/8/2009,Stamford,Connecticut,0,No Info
+9/14/2009,Grand Rapids,Michigan,0,No Info
+9/16/2009,Henrico,Virginia,0,No Info
+10/16/2009,Carolina Forest,South Carolina,1,No Info
+10/16/2009,Conway,South Carolina,1,0.0
+10/30/2009,Long Beach,California,1,No Info
+11/16/2009,Dallas,Texas,0,No Info
+12/2/2009,Brockton,Massachusetts,0,No Info
+12/8/2009,Woodbridge,Virginia,0,No Info
+12/11/2009,Shreveport,Louisiana,0,No Info
+1/7/2010,Phoenix,Arizona,0,No Info
+1/20/2010,Livingston,Alabama,1,No Info
+2/5/2010,Madison,Alabama,1,No Info
+2/5/2010,Madison,Alabama,1,0.0
+2/10/2010,Knoxville,Tennessee,0,No Info
+2/12/2010,Huntsville,Alabama,3,No Info
+2/12/2010,Huntsville,Alabama,3,3.0
+2/19/2010,DeKalb,Illinois,0,No Info
+2/19/2010,DeKalb,Illinois,0,1.0
+2/23/2010,Littleton,Colorado,0,No Info
+2/23/2010,Littleton,Colorado,0,2.0
+2/26/2010,Tacoma,Washington,2,No Info
+3/9/2010,Columbus,Ohio,1,No Info
+3/9/2010,Columbus,Ohio,1,1.0
+4/29/2010,Portsmouth,Virginia,0,No Info
+5/18/2010,South Gate,California,0,No Info
+8/31/2010,Blountville,Tennessee,1,No Info
+9/7/2010,Detroit,Michigan,0,No Info
+9/8/2010,Detroit,Michigan,0,2.0
+9/16/2010,Moss Bluff,Louisiana,1,No Info
+9/21/2010,Columbia,South Carolina,0,No Info
+9/28/2010,Austin,Texas,1,No Info
+9/28/2010,Austin,Texas,1,0.0
+10/1/2010,Salinas,California,1,No Info
+10/1/2010,Salinas,California,1,0.0
+10/3/2010,Elizabeth City,North Carolina,1,No Info
+10/8/2010,Carlsbad,California,0,No Info
+10/8/2010,Carlsbad,California,0,2.0
+10/25/2010,Selma,Alabama,0,No Info
+11/29/2010,Marinette,Wisconsin,0,No Info
+11/29/2010,Marinette,Wisconsin,1,0.0
+12/6/2010,Aurora,Colorado,0,1.0
+1/5/2011,Omaha,Nebraska,1,No Info
+1/5/2011,Omaha,Nebraska,2,2.0
+1/18/2011,Los Angeles,California,0,No Info
+2/2/2011,Placerville,California,1,No Info
+2/14/2011,Murfreesboro,Tennessee,0,No Info
+2/23/2011,Los Angeles,California,1,No Info
+3/25/2011,Martinsville,Indiana,0,No Info
+3/25/2011,Martinsville,Indiana,0,1.0
+3/31/2011,Houston,Texas,1,No Info
+3/31/2011,Houston,Texas,1,5.0
+4/6/2011,Opelika,Alabama,1,No Info
+4/13/2011,Apopka,Florida,0,No Info
+4/19/2011,Houston,Texas,0,No Info
+5/23/2011,Pearl City,Hawaii,0,No Info
+5/23/2011,Pearl City,Hawaii,0,1.0
+8/26/2011,Harper Woods,Michigan,0,No Info
+10/24/2011,Fayetteville,North Carolina,0,No Info
+10/24/2011,Fayetteville,North Carolina,0,1.0
+11/15/2011,Berkeley,California,0,No Info
+12/8/2011,Blacksburg,Virginia,1,No Info
+12/8/2011,Blacksburg,Virginia,2,0.0
+12/9/2011,Edinburg,Texas,0,No Info
+12/9/2011,Edinburg,Texas,0,2.0
+1/4/2012,Brownsville,Texas,0,No Info
+1/10/2012,Houston,Texas,0,No Info
+1/10/2012,Houston,Texas,0,1.0
+2/10/2012,Walpole,New Hampshire,0,No Info
+2/22/2012,Bremerton,Washington,0,No Info
+2/27/2012,Chardon,Ohio,3,No Info
+2/27/2012,Chardon,Ohio,3,3.0
+3/6/2012,Jacksonville,Florida,1,No Info
+3/6/2012,Jacksonville,Florida,2,0.0
+3/24/2012,Starkville,Mississippi,1,No Info
+4/2/2012,Oakland,California,7,No Info
+4/2/2012,Oakland,California,7,3.0
+5/26/2012,Chapel Hill,North Carolina,1,No Info
+8/16/2012,Memphis,Tennessee,0,No Info
+8/16/2012,Memphis,Tennessee,0,2.0
+8/27/2012,Perry Hall,Maryland,0,No Info
+8/27/2012,Perry Hall,Maryland,0,1.0
+9/7/2012,Normal,Illinois,0,No Info
+9/7/2012,Normal,Illinois,0,0.0
+9/12/2012,Baltimore,Maryland,0,No Info
+10/6/2012,Mobile,Alabama,1,0.0
+10/19/2012,Chicago,Illinois,1,0.0
+10/31/2012,Los Angeles,California,0,No Info
+10/31/2012,Los Angeles,California,0,4.0
+11/30/2012,Baltimore,Maryland,0,No Info
+12/14/2012,Newtown,Connecticut,27,No Info
+12/14/2012,Newtown,Connecticut,28,2.0
+1/7/2013,Fort Myers,Florida,1,No Info
+1/7/2013,Fort Myers,Florida,1,0.0
+1/10/2013,Taft,California,0,No Info
+1/10/2013,Taft,California,0,2.0
+1/12/2013,Detroit,Michigan,0,1.0
+1/15/2013,Hazard,Kentucky,3,No Info
+1/15/2013,St. Louis,Missouri,0,No Info
+1/15/2013,St. Louis,Missouri,0,2.0
+1/15/2013,Hazard,Kentucky,3,0.0
+1/16/2013,Chicago,Illinois,0,No Info
+1/16/2013,Chicago,Illinois,1,0.0
+1/22/2013,Houston,Texas,0,No Info
+1/22/2013,Houston,Texas,0,3.0
+1/31/2013,Phoenix,Arizona,0,No Info
+1/31/2013,Atlanta,Georgia,0,No Info
+1/31/2013,Phoenix,Arizona,0,0.0
+1/31/2013,Atlanta,Georgia,0,2.0
+3/18/2013,Orlando,Florida,1,No Info
+3/18/2013,Orlando,Florida,1,0.0
+4/12/2013,Christiansburg,Virginia,0,No Info
+4/12/2013,Dublin,Virginia,0,2.0
+4/16/2013,Grambling,Louisiana,0,No Info
+4/16/2013,Grambling,Louisiana,0,3.0
+4/18/2013,Cambridge,Massachusetts,2,No Info
+4/18/2013,Cambridge,Massachusetts,2,1.0
+5/14/2013,Birmingham,Alabama,0,No Info
+5/14/2013,Birmingham,Alabama,0,0.0
+6/7/2013,Santa Monica,California,6,No Info
+6/7/2013,Santa Monica,California,6,4.0
+6/20/2013,West Palm Beach,Florida,2,No Info
+8/20/2013,Decatur,Georgia,0,No Info
+8/20/2013,Decatur,Georgia,0,0.0
+8/23/2013,Sardis,Mississippi,1,No Info
+8/23/2013,Sardis,Mississippi,1,2.0
+8/30/2013,Winston-Salem,North Carolina,0,No Info
+8/30/2013,Winston-Salem,North Carolina,0,1.0
+10/4/2013,Pine Hills,Florida,0,No Info
+10/4/2013,Pine Hills,Florida,0,2.0
+10/21/2013,Sparks,Nevada,2,No Info
+10/21/2013,Sparks,Nevada,2,2.0
+11/2/2013,Greensboro,North Carolina,0,No Info
+11/2/2013,Greensboro,North Carolina,0,1.0
+11/3/2013,Lithonia,Georgia,0,No Info
+11/3/2013,Lithonia,Georgia,0,2.0
+11/13/2013,Pittsburgh,Pennsylvania,0,No Info
+11/13/2013,Pittsburgh,Pennsylvania,0,3.0
+12/4/2013,Winter Garden,Florida,0,No Info
+12/4/2013,Winter Garden,Florida,0,1.0
+12/13/2013,Centennial,Colorado,2,No Info
+12/13/2013,Centennial,Colorado,2,0.0
+12/19/2013,Fresno,California,0,No Info
+12/19/2013,Fresno,California,0,1.0
+1/9/2014,Jackson,Tennessee,0,1.0
+1/13/2014,New Haven,Connecticut,0,1.0
+1/14/2014,Roswell,New Mexico,0,3.0
+1/17/2014,Philadelphia,Pennsylvania,0,2.0
+1/20/2014,Chester,Pennsylvania,0,1.0
+1/21/2014,West Lafayette,Indiana,1,0.0
+1/24/2014,Orangeburg,South Carolina,1,0.0
+1/25/2014,Los Angeles,California,1,0.0
+1/27/2014,Carbondale,Illinois,0,1.0
+1/28/2014,Nashville,Tennessee,0,1.0
+1/30/2014,Palm Bay,Florida,0,1.0
+1/31/2014,Des Moines,Iowa,0,1.0
+2/10/2014,Salisbury,North Carolina,0,1.0
+2/10/2014,Lyndhurst,Ohio,0,0.0
+2/12/2014,Los Angeles,California,0,1.0
+2/22/2014,Augusta,Georgia,0,1.0
+3/12/2014,Miami,Florida,1,0.0
+3/25/2014,College Park,Georgia,0,0.0
+4/9/2014,Greenville,North Carolina,0,0.0
+4/11/2014,Detroit,Michigan,1,0.0
+5/4/2014,Augusta,Georgia,0,1.0
+5/5/2014,Augusta,Georgia,0,1.0
+5/8/2014,Lawrenceville,Georgia,0,1.0
+5/14/2014,Richmond,California,0,1.0
+6/5/2014,Seattle,Washington,1,2.0
+6/10/2014,Troutdale,Oregon,2,1.0
+9/9/2014,Miami,Florida,0,1.0
+9/27/2014,Terre Haute,Indiana,0,1.0
+9/30/2014,Albemarle,North Carolina,0,1.0
+9/30/2014,Louisville,Kentucky,0,1.0
+10/3/2014,Fairburn,Georgia,1,0.0
+10/24/2014,Marysville,Washington,5,1.0
+11/20/2014,Tallahassee,Florida,1,3.0
+11/20/2014,Miami,Florida,1,1.0
+12/5/2014,Claremore,Oklahoma,1,0.0
+12/12/2014,Portland,Oregon,0,4.0
+1/15/2015,Milwaukee,Wisconsin,0,3.0
+1/16/2015,Ocala,Florida,0,2.0
+2/4/2015,Frederick,Maryland,0,2.0
+2/14/2015,Merced,California,1,0.0
+2/23/2015,Daytona Beach,Florida,0,3.0
+3/30/2015,University City,Missouri,0,1.0
+4/13/2015,Goldsboro,North Carolina,1,0.0
+4/16/2015,Paradis,Louisiana,0,1.0
+4/27/2015,Lacey,Washington,0,0.0
+5/12/2015,Jacksonville,Florida,0,2.0
+5/24/2015,Flint,Michigan,0,7.0
+8/27/2015,Savannah,Georgia,1,0.0
+9/3/2015,Sacramento,California,1,2.0
+9/14/2015,Cleveland,Mississippi,2,0.0
+9/30/2015,Harrisburg,South Dakota,0,1.0
+10/1/2015,Roseburg,Oregon,10,9.0
+10/9/2015,Flagstaff,Arizona,1,3.0
+10/9/2015,Houston,Texas,1,1.0
+10/22/2015,Nashville,Tennessee,1,3.0
+11/1/2015,Winston-Salem,North Carolina,1,1.0
+11/20/2015,North Las Vegas,Nevada,1,0.0
+1/22/2016,Indianapolis,Indiana,0,1.0
+1/29/2016,Philadelphia,Pennsylvania,0,0.0
+2/9/2016,Muskegon Heights,Michigan,0,4.0
+2/12/2016,Glendale,Arizona,2,0.0
+2/29/2016,Middletown,Ohio,0,4.0
+4/23/2016,Antigo,Wisconsin,1,2.0
+6/1/2016,Los Angeles,California,2,0.0
+6/8/2016,Dorchester,Massachusetts,1,3.0
+9/6/2016,Cedar Rapids,IA,1,0.0
+9/9/2016,Alpine,Texas,1,2.0
+9/28/2016,Townville,South Carolina,2,2.0
+10/11/2016,Mobile,Alabama,0,1.0
+10/13/2016,Columbus,Ohio,0,2.0
+10/18/2016,San Francisco,California,0,4.0
+10/25/2016,Sandy,Utah,0,1.0
+12/1/2016,Bountiful,Utah,0,0.0
+1/20/2017,West Liberty,Ohio,0,1.0
+1/20/2017,Seattle,Washington,0,1.0
+3/21/2017,King City,California,0,1.0
+4/10/2017,San Bernardino,California,3,1.0
+5/4/2017,Irving,Texas,2,0.0
+9/13/2017,Rockford,Washington,1,3.0
+9/20/2017,Mattoon,Illinois,0,1.0
+11/14/2017,Rancho Tehama Reserve,California,6,18.0
+12/7/2017,Aztec,New Mexico,3,0.0
+1/9/2018,Forest City,Iowa,0,0.0
+1/20/2018,Winston-Salem,North Carolina,1,0.0
+1/22/2018,Italy,Texas,0,1.0
+1/22/2018,New Orleans,Louisiana,0,1.0
+1/23/2018,Marshall County,Kentucky,2,18.0
+2/1/2018,Los Angeles,California,0,5.0
+2/14/2018,Parkland,Florida,17,14.0
+3/2/2018,Mount Pleasant,Michigan,2,0.0
+3/7/2018,Birmingham,Alabama,1,2.0
+3/14/2018,Birmingham,Alabama,2,1.0
+3/20/2018,Great Mills,Maryland,2,1.0
+4/20/2018,Ocala,Florida,0,1.0
+5/11/2018,Palmdale,California,0,1.0
+5/16/2018,Dixon,Texas,0,1.0
+5/18/2018,Santa Fe,Texas,10,10.0
+5/18/2018,Jonesboro,Georgia,1,3.0
+5/25/2018,Nobelsville,Indiana,0,2.0
+8/17/2018,Wellington,Florida,0,2.0
+8/30/2018,San Francisco,California,0,1.0
+9/5/2018,Providence,Rhode Island,1,1.0
+9/10/2018,Memphis,Tennessee,0,1.0
+9/11/2018,Las Vegas,Nevada,1,0.0
+10/29/2018,Matthews,North Carolina,1,1.0
+12/13/2018,Richmond,Indiana,1,0.0
+1/25/2019,Mobile,Alabama,0,2.0
+2/8/2019,Baltimore,Maryland,0,1.0
+2/12/2019,Kansas City,Missouri,1,0.0
+2/14/2019,Rio Rancho,New Mexico,0,0.0
+3/22/2019,Blountville,Alabama,0,1.0
+4/1/2019,Prescott,Arizona,0,1.0
+4/25/2019,Dekalb,Georgia,0,10.0
+4/30/2019,Charlotte,North Carolina,2,4.0
+5/4/2019,Eugene,Oregon,1,0.0
+5/6/2019,Riverview,Florida,0,0.0
+5/7/2019,Highlands Ranch,Colorado,1,7.0
+5/7/2019,Savannah,Georgia,0,1.0
+8/8/2019,Montgomery,Alabama,0,0.0
+8/30/2019,Mobile,Alabama,0,10.0
+10/22/2019,Santa Rosa,California,0,1.0
+11/14/2019,Santa Clarita,California,2,4.0
+11/15/2019,Pleasantville,New Jersey,1,2.0
+11/23/2019,Union City,California,2,0.0
+12/2/2019,Waukesha,Wisconsin,0,1.0
+12/3/2019,Oshkosh,Wisconsin,0,2.0
+1/8/2020,Belle Glade,Florida,0,1.0
+1/11/2020,Dallas,Texas,1,1.0
+1/14/2020,Bellaire,Texas,1,0.0
+1/14/2020,Fort Worth,Texas,0,2.0
+1/23/2020,Oxnard,California,0,1.0
+2/3/2020,Commerce,Texas,2,1.0
+9/16/2020,Sonora,California,1,0.0
+9/16/2020,Macomb,Illinois,0,1.0
+2/26/2021,New Orleans,Louisiana,1,0.0
+3/1/2021,Pine Bluff,Arkansas,1,0.0
+4/12/2021,Knoxville,Tennessee,1,1.0
+4/26/2021,Plymouth,Minnesota,0,0.0
+5/6/2021,Rigby,Idaho,0,3.0
