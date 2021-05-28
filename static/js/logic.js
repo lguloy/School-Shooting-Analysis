@@ -28,7 +28,6 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
             };
         })
     })
-    console.log(city)
-    ;
+    console.log(city);
     
 });
