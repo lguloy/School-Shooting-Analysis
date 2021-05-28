@@ -17,7 +17,7 @@ let state = []
 // }).addTo(myMap);
 
 
-d3.csv("../static/data/pah_wikp_combo.csv").then(function(data) {
+d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
     data.forEach((line) => {
         Object.entries(line).forEach(([key, value]) => {
             if (key === 'City') {
