@@ -18,7 +18,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(myMap);
 
 
-let url = "https://maps.googleapis.com/maps/api/geocode/json?address=" 
+let url = "http://open.mapquestapi.com/geocoding/v1/address?key="
 
 
 
@@ -34,24 +34,36 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
         })
     })
     for (var i = 0; i < city.length; i++) {
+        var site = `${url}${MAPQ_KEY}&city=${city[i]}&state=${state[i]}`
+        var location = require(site)
+        console.log(location.latLng)
+    };
+    console.log(site)
+});    
+        
+        
+        
+        
         // city_state.push(url.concat(city[i])); 
-        var site = `${url}${city[i]},%20${state[i]}&key=${GOOGLE_KEY}`
+        // var site = `${url}${city[i]},%20${state[i]}&key=${GOOGLE_KEY}`
 
-        d3.json(site).then(function(response) {;
+        // d3.json(site).then(function(response) {;
+        //     let keys = site.getKeys()
+
+        //     for (var i = 0; i < keys.length; i++) {
+        //       console.log(keys[i] + "=" + site.get(keys[i]))
+
+            //   var location = response[i].location;
           
-            for (var i = 0; i < response.length; i++) {
-              var location = response[i].location;
+            //   if (location) {
+            //     heatArray.push([location.location[1], geometry.location[0]]);
+//             //   }
+//            }
           
-              if (location) {
-                heatArray.push([location.location[1], location.location[0]]);
-              }
-            }
-          
-            // var heat = L.heatLayer(heatArray, {
-            //   radius: 20,
-            //   blur: 35
-            // }).addTo(myMap);
-        });
-    console.log(heatArray);
-    }
-});
+//             // var heat = L.heatLayer(heatArray, {
+//             //   radius: 20,
+//             //   blur: 35
+//             // }).addTo(myMap);
+//         });
+//     // console.log(site);
+//     }
