@@ -109,7 +109,88 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
         }
     }
 
-    //
+
 
 
 })
+
+//**CREATING THE GRAPHS SECTION OF THE JS */
+d3.csv("../static/data/Total_Shootings.csv").then(function(data1) {
+    
+
+    //set up variables for the buttons and selections
+    var graph_select = d3.select("#graphsearch")
+    var graph_btn = d3.select("#graph-btn")
+
+    //event listeners
+    graph_btn.on("click", GenerateTotalGraph)
+
+    //runs this function when the search button is created
+    function GenerateTotalGraph(){
+        //initialize the arrays that we are going to use to create a trace
+        years = []
+        frequency = []
+        //prevent refreshing
+        d3.event.preventDefault();
+
+        //Clear out the table
+        d3.select("#graphs").selectAll(".plotly").remove();
+
+        var input3 = graph_select.property("value")
+
+        //Will only generate the graph on event listened
+        if (input3 === "Total Shootings") {
+
+            data1.forEach(function(datum) {
+                    Object.entries(datum).forEach(function([key,value]){
+                        if (key === "Year") {
+                            years.push(value)
+                        }
+
+                        else if (key === "Date") {
+                            frequency.push(value)
+                        }
+                    })
+            })
+
+            //now we actually create the graph
+            var trace = {
+                x : years,
+                y : frequency,
+                type : "scatter"
+            }
+            
+            var layout = {
+                title: "Total Shootings in the USA per Year",
+                xaxis: {title: "Year"},
+                yaxis: {title: "Incident Frequency"}
+            }
+            var data = [trace]
+
+            Plotly.newPlot("graphs", data, layout)
+        }
+    }
+
+
+
+})
+
+d3.csv("../static/data/AreaType_Shootings.csv").then(function(data) {
+    console.log(data)
+
+    //set up variables for the buttons and selections
+    var graph_select = d3.select("#graphsearch")
+    var graph_btn = d3.select("#graph-btn")
+
+    //event listeners
+    graph_btn.on("click", GenerateAreaTypeGraph)
+
+//     //create the functiion
+//     function GenerateAreaTypeGraph() {
+//         //prevent refreshing
+//         d3.event.preventDefault();
+
+//         //Clear out the table
+//         d3.select("#graphs").selectAll(".plotly").remove();
+//     }
+// })

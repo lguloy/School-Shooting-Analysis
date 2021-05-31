@@ -58,7 +58,18 @@
         <!-- </div> -->
     </div>
 
-    <div class = "row">
+    <div class = "row" style="margin-bottom: 20px;">
+      <div class="col-md-4">
+          <select id="graphsearch" class="form-select"  aria-label="Default select example" style="margin-bottom: 20px;">
+              <option selected>Select Graph</option>
+              <option value= "Total Shootings">Total Shootings</option>
+          </select>
+
+          <button type="button" class="btn btn-primary" id="graph-btn">Generate!</button>
+      </div>
+    </div>
+
+    <div class = "row" style = "margin-bottom: 20px;">
       <div id="graphs" class="col-md-12">
         <!-- JS file updates this -->
       </div>
