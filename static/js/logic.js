@@ -32,15 +32,17 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
                 state.push(value)
             };
         })
-    })
-    for (var i = 0; i < city.length; i++) {
-        var site = `${url}${MAPQ_KEY}&city=${city[i]}&state=${state[i]}`
-        var location = require(site)
-        console.log(location.latLng)
-    };
-    console.log(site)
-});    
-        
+    
+    
+        var site = `${url}${MAPQ_KEY}&location${city[i]},${state[i]}`
+
+        for (var i = 0; i < city.length; i++) {
+            d3.json(site).then(function(response) {
+                console.log(site);
+            })
+        };
+    });    
+});     
         
         
         
