@@ -60,19 +60,37 @@
 
     <div class = "row" style="margin-bottom: 20px;">
         <div class="col-md-4">
-            <select class="form-select" aria-label="Default select example" style="margin-bottom: 20px;">
+            <select id="state" class="form-select"  aria-label="Default select example" style="margin-bottom: 20px;">
                 <option selected>Select State</option>
             </select>
-            <select class="form-select" aria-label="Default select example" style="margin-bottom: 20px;">
+            <select class="form-select" id="year" aria-label="Default select example" style="margin-bottom: 20px;">
                 <option selected>Select Year</option>
             </select>
 
-            <button type="button" class="btn btn-primary">Search!</button>
+            <button type="button" class="btn btn-primary" id="btn-to-search">Search!</button>
         </div>
     </div>
-    <div class = "row">
-      <div id="table" class="col-md-12">
-        <!-- JS file updates this -->
+    <div class = "row text-box">
+      <div id="table-id" class="col-md-12" style="background-color: white;">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Area Type</th>
+              <th>School</th>
+              <th>Fatalities</th>
+              <th>Wounded</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+
+          <tbody id="table-desc">
+             <!-- JS file updates this -->
+          </tbody>
+        </table>
+       
       </div>
     </div>
 
@@ -92,5 +110,5 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src=".static/js/app.js"></script>
+  <script src="static/js/logic.js"></script>
 </body>
