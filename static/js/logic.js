@@ -1,3 +1,4 @@
+//**CREATING THE INTERACTIVE TABLE */
 d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
     console.log(data);
 
@@ -114,12 +115,14 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
 
 })
 
+
 //**CREATING THE GRAPHS SECTION OF THE JS */
 d3.csv("../static/data/Total_Shootings.csv").then(function(data1) {
     d3.csv("../static/data/AreaType_Shootings.csv").then(function(data2) {
         d3.csv("../static/data/State_count.csv").then(function(data3) {
             console.log(data1)
             console.log(data2)
+            
             //set up variables for the buttons and selections
             var graph_select = d3.select("#graphsearch")
             var graph_btn = d3.select("#graph-btn")
@@ -268,4 +271,6 @@ d3.csv("../static/data/Total_Shootings.csv").then(function(data1) {
 
 
 })
+
+//**Slick JS */
 

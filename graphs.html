@@ -9,9 +9,13 @@
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="static/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css">
 </head>
 
 <body style="background-color:rgb(108, 128, 136);">
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 20px;">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Landing Page</a>
@@ -46,9 +50,15 @@
                 <h3 style="color:black;">Description</h3>
             </div>
             <div class="col-md-12">
-                <p style="font-size: medium; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p style="font-size: medium; color: white;">This page allows you to view specific graphs highlighting trends on 
+                  the number of school shootings in the data we have collected from the time period of
+                  1990 to 2021. You will be able to choose from three graphs: </p>
+                  <br>
+                <ul style="font-size: medium; color: white;">
+                  <li>A timeline of the total shootings in the US</li>
+                  <li>A bar chart of total shootings in the US grouped by area type</li>
+                  <li>A bar chart listing the total incidents grouped by state</li>
+                </ul>
             </div>
 
 
@@ -78,10 +88,44 @@
       <div class="text-center text-box-header">
         <h3 style="color:black;">Analysis</h3>
       </div>
-      <div class="col-md-12">
-        <p style="font-size: medium; color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div class="col-md-12" class="p-slick">
+        <div class = "your-class" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+          <div><h3 style="color: white;">Summary:</h3><p style="font-size: medium; color: white;">As you can see from the graphs, 
+            the number of school shootings has trended upwards over the years. We’ve broken down the total number of shootings per year 
+            and grouped them by area of occurrence. The data set we are using did not have school type for each incident, but you can surmise
+            from the data where shootings are most frequent. We also break down total shootings by state to better see which states 
+            have seen the most shootings in the past 30 years.We hope that by presenting this data in this manner, 
+            others can see where gun violence is most prevalent, and measures can be taken to help curb more violence in the future</p></div>
+          <div><h3 style="color: white;">Total Shootings:</h3><p style="font-size: medium; color: white;">
+            From the total shootings graph, we can see that there has been in incidents from 2005-2015, however it has dropped since then.
+            However we cannot conclude too much from this data without looking at different factors. As such we looked at incidents at
+            different area types and by state </p></div>
+          <div><h3 style="color: white;">Area Type Shootings:</h3><p style="font-size: medium; color: white;">
+            In this data, we seperated each incidents in each year by an area type: Urban, Suburban and Rural. From this trend
+            We can see that a high amount of incidents happen in urban areas, such as cities. We can also
+            make the observation that rural areas are not as likely to have these kind of incidents We can show this further when we look 
+            at the visualization that groups these incidents by state </p></div>
+          <div><h3 style="color: white">Total Shootings Per State:</h3><p style="font-size: medium; color: white;">As mentioned about the area
+            type shootings, we concluded that most shootings occur in urban areas. We can further solidify this conclusion with state groupings. In the bar chart,
+            We can see that California (despite its policies on gun control) have the highest shooting frequency, followed by Texas and Florida. These states
+            tend to have areas of high population density such as San Francisco, Miami, Dallas and etc. If density or population has to do something
+            with this trend, then factors that have a trend with population density (such as poverty rates, cost of living, etc.) have an effect on frequency </p></div>
+          <div><h3 style="color: white">A Deeper Look:</h3><p style="font-size: medium; color: white;">While the analysis only analyzes area types,
+            it opens avenues to look at more deeply. For example, we can ask more questions such as "does poverty have to do anything about it?" or 
+            "do policies have more an effect on the incidents". Future studies can also delve into why there was a spike in the periods of 1990-1995 
+            and 2005-2015. We can ask ourselves what events may have caused these spikes, which can allow us to better put action into preventing
+            school shootings. </p></div>
+            <div><h3 style="color: white">Other Considerations</h3><p style="font-size: medium; color: white;">While we have anlyzed data from 
+            the number of incidents per area type, it is important to consider a few things about the data set that we gethered</p>
+
+            <ul h3 style="color: white">
+              <li>What counts as a shooting incident?</li>
+              <li>What about non-school related incidents?</li>
+              <li>How did the author of the CSV clean it</li>
+              <li>Maybe a few spots that we may have missed in cleaning</li>
+            </ul>
+          
+        </div>
       </div>
     </div>
 
@@ -91,4 +135,11 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="static/js/logic.js"></script>
+  <script type="text/javascript" src="static/slick/slick.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick();
+    });
+  </script>
 </body>
