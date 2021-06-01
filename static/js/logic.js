@@ -116,81 +116,156 @@ d3.csv("../static/data/overalldata_cleaned.csv").then(function(data) {
 
 //**CREATING THE GRAPHS SECTION OF THE JS */
 d3.csv("../static/data/Total_Shootings.csv").then(function(data1) {
-    
+    d3.csv("../static/data/AreaType_Shootings.csv").then(function(data2) {
+        d3.csv("../static/data/State_count.csv").then(function(data3) {
+            console.log(data1)
+            console.log(data2)
+            //set up variables for the buttons and selections
+            var graph_select = d3.select("#graphsearch")
+            var graph_btn = d3.select("#graph-btn")
 
-    //set up variables for the buttons and selections
-    var graph_select = d3.select("#graphsearch")
-    var graph_btn = d3.select("#graph-btn")
+            //event listeners
+            graph_btn.on("click", GenerateGraph)
 
-    //event listeners
-    graph_btn.on("click", GenerateTotalGraph)
+            //runs this function when the search button is created
+            function GenerateGraph(){
+                //initialize the arrays that we are going to use to create a trace
+                years = []
+                frequency = []
+                urban_years = []
+                urban_frequency = []
+                suburban_years = []
+                suburban_frequency = []
+                rural_years = []
+                rural_frequency = []
+                states = []
+                state_count = []
 
-    //runs this function when the search button is created
-    function GenerateTotalGraph(){
-        //initialize the arrays that we are going to use to create a trace
-        years = []
-        frequency = []
-        //prevent refreshing
-        d3.event.preventDefault();
+                //prevent refreshing
+                d3.event.preventDefault();
 
-        //Clear out the table
-        d3.select("#graphs").selectAll(".plotly").remove();
+                //Clear out the table
+                d3.select("#graphs").selectAll(".plotly").remove();
 
-        var input3 = graph_select.property("value")
+                var input3 = graph_select.property("value")
 
-        //Will only generate the graph on event listened
-        if (input3 === "Total Shootings") {
+                //Will only generate the graph on event listened
+                if (input3 === "Total Shootings") {
+                    console.log(input3)
+                    data1.forEach(function(datum) {
+                            Object.entries(datum).forEach(function([key,value]){
+                                if (key === "Year") {
+                                    years.push(value)
+                                }
 
-            data1.forEach(function(datum) {
-                    Object.entries(datum).forEach(function([key,value]){
-                        if (key === "Year") {
-                            years.push(value)
+                                else if (key === "Date") {
+                                    frequency.push(value)
+                                }
+                            })
+                    })
+
+                    //now we actually create the graph
+                    var trace = {
+                        x : years,
+                        y : frequency,
+                        type : "scatter"
+                    }
+                    
+                    var layout = {
+                        title: "Total Shootings in the USA per Year",
+                        xaxis: {title: "Year"},
+                        yaxis: {title: "Incident Frequency"}
+                    }
+                    var data = [trace]
+
+                    Plotly.newPlot("graphs", data, layout)
+                }
+
+                else if (input3 === "Area Type Shootings") {
+                    console.log(input3)
+
+                    data2.forEach(function(datum) {
+                        if (datum.AreaType === "urban") {
+                            urban_years.push(datum.Year)
+                            urban_frequency.push(datum.Date)
                         }
 
-                        else if (key === "Date") {
-                            frequency.push(value)
+                        else if (datum.AreaType === "suburban"){
+                            suburban_years.push(datum.Year)
+                            suburban_frequency.push(datum.Date)
+                        }
+
+                        else if (datum.AreaType === "rural") {
+                            rural_years.push(datum.Year)
+                            rural_frequency.push(datum.Date)
                         }
                     })
-            })
 
-            //now we actually create the graph
-            var trace = {
-                x : years,
-                y : frequency,
-                type : "scatter"
+                    trace1 = {
+                        x: urban_years,
+                        y: urban_frequency,
+                        name: "Urban",
+                        type: "bar"
+                    }
+
+                    trace2 = {
+                        x: suburban_years,
+                        y: suburban_frequency,
+                        name: "Suburban",
+                        type: "bar"
+                    }
+
+                    trace3 = {
+                        x: rural_years,
+                        y: rural_frequency,
+                        name: "rural",
+                        type: "bar"
+                    }
+                    var layout1 = {
+                        title: "Shootings Per year, grouped by Area Type",
+                        xaxis: {title: "Year"},
+                        yaxis: {title: "Incident Frequency"}
+                    }
+
+                    var data = [trace1,trace2, trace3]
+
+                    Plotly.newPlot("graphs", data, layout1)
+                    
+
+                }
+                else if (input3 === "State Total Shootings") {
+                    data3.forEach(function(datum) {
+                        states.push(datum.State)
+                        state_count.push(datum.Count)
+                    })
+
+                     var trace4 = {
+                        x: states,
+                        y:state_count,
+                        type: "bar"
+                    }
+
+                    var layout2 = {
+                        title: "Shootings Per Year, grouped by States",
+                        xaxis: {title: "State",
+                                tickfont: {
+                                    size: 10
+                                }},
+                        yaxis: {title: "Incident Frequency"}
+                    }
+
+                    var data = [trace4]
+
+                    Plotly.newPlot("graphs", data, layout2)
+                    
+                }
+
             }
+
+        })
             
-            var layout = {
-                title: "Total Shootings in the USA per Year",
-                xaxis: {title: "Year"},
-                yaxis: {title: "Incident Frequency"}
-            }
-            var data = [trace]
-
-            Plotly.newPlot("graphs", data, layout)
-        }
-    }
-
+    })
 
 
 })
 
-d3.csv("../static/data/AreaType_Shootings.csv").then(function(data) {
-    console.log(data)
-
-    //set up variables for the buttons and selections
-    var graph_select = d3.select("#graphsearch")
-    var graph_btn = d3.select("#graph-btn")
-
-    //event listeners
-    graph_btn.on("click", GenerateAreaTypeGraph)
-
-//     //create the functiion
-//     function GenerateAreaTypeGraph() {
-//         //prevent refreshing
-//         d3.event.preventDefault();
-
-//         //Clear out the table
-//         d3.select("#graphs").selectAll(".plotly").remove();
-//     }
-// })
