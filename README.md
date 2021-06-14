@@ -1,5 +1,7 @@
 # School-Shooting-Analysis
 
+App Link: https://school-analysis-shootings.herokuapp.com/
+
   The project will be centered around analyzing the statistics on school shootings to determine if there are any major trends that could cause an increase or decrease in school shootings over a 30 year period, starting from 1990 to Present. The data is linked below
   
   https://www.kaggle.com/ecodan/school-shootings-us-1990present?select=pah_wikp_combo.csv
