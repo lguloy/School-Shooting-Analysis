@@ -10,3 +10,4 @@
   factors and compare it against various statistics in school shootings.
   
   
+![image](https://user-images.githubusercontent.com/77305768/121836830-4176b900-cca2-11eb-9f6f-afc8aa4340e6.png)
